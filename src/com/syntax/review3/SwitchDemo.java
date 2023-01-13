@@ -7,7 +7,7 @@ public class SwitchDemo {
         and provide winners
          */
 
-        int worldCup=2022;
+        int worldCup=2014;
         switch(worldCup){
 
             case 2022:
@@ -19,6 +19,8 @@ public class SwitchDemo {
             case 2014:
                 System.out.println("Winner is Germany ");
                 break;
+            default:
+              System.out.println("Winner is unknown");
         };
     }
 }
